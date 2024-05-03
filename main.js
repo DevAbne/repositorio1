@@ -20,4 +20,5 @@ form.addEventListener("submit",function(e){
 });
 form.addEventListener('keyup', function(e){
     console.log(e.target.value);
+    console.log("hello world")
 });
