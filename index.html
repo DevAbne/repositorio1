@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de HTML com JS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <h1>Teste com números</h1>
+        <h3>Obs: O segundo tem que ser maior do que o primeiro</h3>
+        <form id="formulario">
+            <label for="campoA">Escolha o 1º número</label>
+            <input type="number" id="campoA" required placeholder="Digite aqui">         
+            <br>
+            <label for="campoA">Escolha o 2º número</label>
+            <input type="number" id="campoB" required placeholder="Digite aqui">         
+            <br>
+            <button type="submit" >Enviar</button>
+        </form>
+        <br>
+    </div>
+    <div id="mensagem"></div>
+    <script src="main.js"></script>
+</body>
+</html>
